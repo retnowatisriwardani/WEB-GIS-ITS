@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: #1f5f8b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#map {
+    width: 100%;
+    height: 90vh;
+}
+
+/* ==========================
+   DASHBOARD STATISTIK
+   ========================== */
+#dashboard {
+    position: absolute;
+    top: 290px;      /* sesuaikan jika tombol bertambah */
+    left: 10px;
+    z-index: 999;
+
+    width: 240px;
+    max-height: 45vh;
+    overflow-y: auto;
+
+    background: rgba(255,255,255,0.95);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Judul */
+#dashboard h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+/* Subjudul */
+#dashboard h4 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+/* List */
+#dashboard ul {
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+#dashboard li {
+    margin-bottom: 6px;
+}
+
+/* Scrollbar */
+#dashboard::-webkit-scrollbar {
+    width: 8px;
+}
+
+#dashboard::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 5px;
+}
+
+#dashboard::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.zoom-info{
+    background:white;
+    padding:8px 12px;
+    border-radius:4px;
+    box-shadow:0 1px 5px rgba(0,0,0,.4);
+    font-weight:bold;
+    margin-bottom:95px;   /* atur sesuai kebutuhan */
+}
+

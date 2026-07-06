@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGIS</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+    <!-- Leaflet Draw CSS -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css"/>
+
+    <!-- CSS sendiri -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header">
+        <h2>WebGIS Inventarisasi Infrastruktur dan Tata Guna Lahan ITS</h2>
+    </div>
+
+    <div id="dashboard">
+    <h3>Luas Area</h3>
+
+    <b>Luas ITS</b>
+    <ul>
+        <li>Sukolilo : 1.686.458 m²</li>
+        <li>Manyar : 15.135 m²</li>
+        <li>Cokroaminoto : 2.945 m²</li>
+        <li>Buncitan : 90.892 m²</li>
+    </ul>
+
+    <b>Infrastruktur</b>
+    <ul>
+        <li>Building : 371.728,11 m²</li>
+        <li>Water Absorption : 595.736,77 m²</li>
+        <li>Rooftop : 15.460,01 m²</li>
+        <li>Cover Planted : 741.526,89 m²</li>
+        <li>Forest : 524.259,97 m²</li>
+    </ul>
+
+    <b>Lahan Praktik Lapangan</b>
+    <ul>
+        <li>REIDI : 14.502,38 m²</li>
+        <li>Urban Farming : 2.858,33 m²</li>
+        <li>Buncitan : 85.682,34 m²</li>
+    </ul>
+</div>
+
+    <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- Leaflet Draw JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+
+    <!-- JS sendiri -->
+    <script src="script.js"></script>
+
+</body>
+</html>
